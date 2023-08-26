@@ -10,11 +10,13 @@ class Node {
 public class LinkedList {
     int length;
     LinkedList() {
+        System.out.println("Default Constructor..")
         length = 0;
         System.out.println('LinkedList class instantiated..')
     }
 
     LinkedList(int[] arr) {
+        System.out.println("Parametrised Constructor..")
         length = arr.length;
     }
 
